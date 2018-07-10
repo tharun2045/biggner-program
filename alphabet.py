@@ -1,7 +1,7 @@
-f=raw_input("")
+f=raw_input()
 if (f>'A'):
     print ("Alphabet")
 elif (f>'a'):
     print ("Alphabet")
 else:
-    print ("Not Alphabet")
+    print ("Not a Alphabet")
