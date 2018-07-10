@@ -1,8 +1,7 @@
-n=int(raw_input())
-if(n<0):
+l=int(raw_input())
+if(l<0):
 	print ("invalid")
-elif (n%2==0):
+elif (l%2==0):
 	print ("Even ")
 else :
 	print ("Odd")
-	
