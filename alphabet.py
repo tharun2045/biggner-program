@@ -1,7 +1,7 @@
-t=raw_input("")
-if (t>'A'):
+f=raw_input("")
+if (f>'A'):
     print ("Alphabet")
-elif (t>'a'):
+elif (f>'a'):
     print ("Alphabet")
 else:
     print ("Not Alphabet")
