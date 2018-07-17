@@ -1,9 +1,9 @@
 lo,up=map(int,input().strip().split())
-for num in range(lo+1,up):
-   if num > 1:
-       for i in range(2,num):
-           if (num % i) == 0:
+for k in range(lo+1,up):
+   if k > 1:
+       for i in range(2,k):
+           if (k % i) == 0:
                break
        else:
     
-        print(num ,end=" ")
+        print(k ,end=" ")
