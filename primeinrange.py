@@ -5,4 +5,5 @@ for num in range(lo+1,up):
            if (num % i) == 0:
                break
        else:
-        print(num,end=" ")
+    
+        print(num ,end=" ")
