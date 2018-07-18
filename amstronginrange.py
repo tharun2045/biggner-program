@@ -1,5 +1,5 @@
 lo,up=map(int,raw_input().strip().split())
-for j in range(lo, up + 1):
+for j in range(lo+1 , up ):
    order = len(str(j))
    sum = 0
    temp = j
