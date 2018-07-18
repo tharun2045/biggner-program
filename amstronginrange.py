@@ -1,4 +1,4 @@
-lo,up=map(int,input().strip().split())
+lo,up=map(int,raw_input().strip().split())
 for j in range(lo, up + 1):
    order = len(str(j))
    sum = 0
@@ -8,4 +8,4 @@ for j in range(lo, up + 1):
        sum += digit ** order
        temp //= 10
    if j == sum:
-       print(j,end=" ")
+       print j,
